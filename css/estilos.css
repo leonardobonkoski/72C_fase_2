@@ -1,0 +1,39 @@
+body{
+  background-image: url("https://www.trustedselfstorage.com/wp-content/uploads/2019/03/blue-pattern.png");
+  background-size: auto 100vh;
+  font-family: Arial;
+  height: 100vh;
+  
+}
+
+  .menu{
+    background-color:white;
+  }
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+.menu ul{
+  display: flex;
+  justify-content: space-around; 
+}
+
+.menu li{
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title, 
+.site-subtitle{
+  color:whitesmoke;
+  text-align:center;
+}
+
+.site-subtitle{
+  font-style: italic;
+}
